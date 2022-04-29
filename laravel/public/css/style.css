@@ -1,0 +1,73 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: silver;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.selected-sale-items {
+    height: 250px;
+    overflow-y: auto;
+}
+
+.item_box,
+.category_box {
+    overflow-y: auto;
+    /* overflow-x: auto; */
+    max-height: calc(100vh - 100px);
+}
+
+.category_box .card,
+.item_box .card {
+    cursor: pointer;
+}
+
+.item_box .card {
+    background-color: darkorange;
+}
+
+.category_box .card {
+    background-color: lightgrey;
+}
+
+#selected-purchase-items-table {
+    font-size: 13px;
+}
+
+#purchaseInvoiceTable td,
+#purchaseInvoiceTable th {
+    padding: 5px;
+}
+
+.purchase-invoice {
+    font-size: 13px;
+}
+
+#myTable {
+    text-align: center;
+}
